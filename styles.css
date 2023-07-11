@@ -1,0 +1,82 @@
+/*Fondo*/
+
+.full-background {
+  background-image: url('imagenes/fondo.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; 
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.parrafo {
+color:rgb(255, 240, 255);
+text-align:center;
+font-size: 3rem;
+}
+
+.titulo {
+  font-size: 10rem;
+  background: linear-gradient(to right, rgb(7, 17, 150), white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+/*BARRA NAVEGACION*/
+
+.navbar-nav {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.navbar-nav .nav-link:hover {
+  color: rgb(85, 10, 159) !important;
+}
+
+
+
+/*FOOTER*/
+
+.footer
+{
+  background-color: #474747;
+  padding: 20px;
+  text-align: center;
+  color: #333;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #fcfafa;
+  font-size: 3rem;
+}
+
+
+
+.product-image{
+  height: 400px;
+  width: 6000px;
+}
+
+.mensaje-eliminacion {
+  text-align: center;
+  font-size: 20px;
+  color: blue;
+}
+.mensaje-agregado {
+  text-align: center;
+  font-size: 20px;
+  color: green;
+}
+

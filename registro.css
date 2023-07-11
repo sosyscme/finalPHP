@@ -1,0 +1,10 @@
+  /*BARRA NAVEGACION*/
+
+  .navbar-nav {
+    font-size: 2rem;
+    font-weight: bolder;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: rgb(85, 10, 159) !important;
+  }

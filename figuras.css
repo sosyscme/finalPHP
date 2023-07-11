@@ -1,0 +1,46 @@
+/*BARRA NAVEGACION*/
+
+.navbar-nav {
+    font-size: 2rem;
+    font-weight: bolder;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: rgb(85, 10, 159) !important;
+  }
+
+  body {
+    background-color: #f8f9fa;
+  }
+  
+  .product {
+    height: auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .product-image {
+    height: 300px; 
+    width: 100%;
+    object-fit: contain; 
+  }
+  
+  
+  
+  .product-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .product-description {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .product-price {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
